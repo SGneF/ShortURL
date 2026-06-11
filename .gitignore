@@ -1,0 +1,50 @@
+# Binary output
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+shorturl
+
+# Test binary
+*.test
+
+# Go workspace
+go.work
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Config (contains sensitive credentials: MySQL DSN, Redis password)
+config.yaml
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Cluade Code
+.cludae/
+
+# Build output
+/bin/
+/dist/
+/tmp/
+
+# Coverage
+*.out
+coverage.html
+
+# Project docs
+短链接项目介绍.txt
+面试问答.txt
